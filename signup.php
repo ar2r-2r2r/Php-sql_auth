@@ -8,9 +8,10 @@
     $email= $_POST['email'];
     $password= $_POST['password'];
     $password_confirm= $_POST['password_confirm'];
+    $rating=$_POST['rating'];
 
     if($password == $password_confirm){
-        mysqli_query($connect, "INSERT INTO `users` (`id`, `full_name`, `login`, `email`, `password`) VALUES (NULL, '$full_name', '$login', '$email', '$password')");
+        mysqli_query($connect, "INSERT INTO `users` (`id`, `full_name`, `login`, `email`, `password`, `rating`) VALUES (NULL, '$full_name', '$login', '$email', '$password', '$rating')");
         $_SESSION['msg']='Регистрация прошла успешно';
         header('Location: /authorisation.php');
     }

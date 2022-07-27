@@ -19,6 +19,8 @@
         <input type="text" name="login" placeholder="Введите свой логин">
         <label>Почта</label>
         <input type="email" name="email" placeholder="Введите свою почту">
+        <label>Рейтинг</label>
+        <input type="rating" name="rating" placeholder="Введите ваш рейтинг">
         <label>Пароль</label>
         <input type="password" name="password" placeholder="Введите свой пароль">
         <label>Подтверждение пароля</label>

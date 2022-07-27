@@ -17,6 +17,9 @@ form{
     display: flex;
     flex-direction:column;
     width: 400px;
+    font-size: 19px;
+    font-weight: bolder;
+    
 
 }
 
@@ -39,7 +42,7 @@ button{
 }
 
 a{
-    color: rgb(117, 119, 223);
+    color: rgb(93, 60, 211);
     font-weight: bolder;
     text-decoration:none;
 }
@@ -53,4 +56,24 @@ a{
     text-align: center;
     background-color: rebeccapurple;
     font-weight: bold;
+}
+
+#abitur{
+    margin-top: 400px;
+    font-weight: bold;
+}
+
+.tableAbit{
+    border:3px;
+}
+
+table, td, th{
+    border: 2px solid rgb(8, 0, 0);
+    border-collapse: collapse;
+    border-spacing: 10px;
+    padding:10px;
+}
+
+table{
+    margin-bottom: 30px;
 }
